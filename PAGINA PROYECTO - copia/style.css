@@ -1,0 +1,489 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}   
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+ .container {
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(https://images.unsplash.com/photo-1459865264687-595d652de67e?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGMlQzMlQTlzcGVkJTIwZGUlMjBmJUMzJUJBdGJvbHxlbnwwfHwwfHx8MA%3D%3D);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:100vh;
+    display: flex;
+    align-items: center;
+
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #128d18;
+    width: 100%;
+    z-index: 1000;
+    box-sizing: border-box;
+
+}
+
+
+.Logo {
+    color: #FFFDFC;
+    font-size: 25px;
+    font-weight: 800;
+    background-image: url(/imagenes/camiseta1.png);
+    display: flex;
+    content: none;
+    image-resolution: 20px 20px 20px 20px;
+    top: 10px;
+    left: 10px;
+    width: 100px;
+    height: auto;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+    padding: auto;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #FFFDFC;
+    display: block;
+    font-weight: 600;
+    align-items: center;
+}
+
+.menu .navbar ul li a:hover {
+    color: #ff8800;
+}
+
+section[id] {
+    scroll-margin-top: 70px;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+    height: 25px;
+    fill: white;
+}
+
+svg {
+    fill: white;
+    color: white;
+    font-size: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-content {
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 75px;
+    line-height: 80px;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.header-content p {
+    font-size: 16px;
+    color: #C5C5C5;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+
+
+
+.btn-1 {
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #0d003d;
+    color: #F9FAFC;
+    text-transform: uppercase;
+}
+
+.btn-2 {
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #116406;
+    color: #F9FAFC;
+    text-transform: uppercase;
+}
+
+.btn-2:hover:hover {
+    background-color: #3dad21;
+}
+
+.btn-1:hover {
+    background-color: #2077da;
+}
+
+.futbol {
+    padding: 100px 0;
+    background-color: #E1E2E6;
+    position: relative;
+}
+
+.futbol-content {
+    text-align: center;
+}
+
+.futbol-content h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+}
+
+.txt-p {
+    font-size: 16px;
+    color: #414247;
+    padding: 0 250px;
+    margin-bottom: 35px;
+}
+
+.futbol-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    padding: 0;
+}
+
+.futbol-1 img {
+    width: 200px;
+    height: 200px;
+}
+
+img {
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+
+.futbol-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+
+.futbol-1 h3 {
+    color: #323337;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.productos {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)),
+        url(https://images.unsplash.com/photo-1655609080543-52b53d026c6a?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+}
+
+.productos-content {
+    text-align: center;
+}
+
+.productos-content h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.productos-content p {
+    font-size: 16px;
+    color: #C5C5C5;
+    margin-bottom: 50px;
+    padding: 0 100px;
+}
+
+.productos-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.productos-1 {
+    padding: 0 100px;
+}
+
+.productos-1 img {
+    width: 25px;
+    margin-bottom: 15px;
+}
+
+.productos-1 h3 {
+    color: #EACCB3;
+    font-size: 18px;
+}
+
+
+.general {
+    display: flex;
+}
+
+.general-1 {
+    width: 50%;
+    padding: 100px 200px 150px 200px;
+    background-color: #c5c7cf;
+    text-align: center;
+}
+
+.general-2 {
+    background-image: url(https://www.2playbook.com/uploads/s1/10/00/11/11teamsports-tienda-innsbruck.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-3 {
+    background-image: url(https://i.pinimg.com/originals/59/93/7c/59937c504221d831349436489c5b051d.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    color: #414247;
+    margin: 25px 0 45px 0;
+    padding: 10px -50px;
+    text-align: center
+}
+
+.blog {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.blog-content {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 45px;
+}
+
+.blog-1 {
+    padding: 15px 80px; 
+}
+
+.blog-1 img {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+
+}
+
+.blog-1 h3 {
+    font-size: 25px;
+    color: #323337;
+}
+
+.footer {
+    padding: 100px 0;
+    background-color: #000000;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 150px;
+}
+
+.link h3 {
+    font-size: 18px;
+    color: #F9FAFC;
+    margin-bottom: 30px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 5px;
+    text-align: center;
+
+}
+
+.link a {
+    font-size: 16px;
+    color: #C5C5C5;
+    display: block;
+    margin-bottom: 30px;
+    width: 200px;
+    padding-left: 0;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: auto;
+}
+
+.fondo-contacto {
+    display: flex;
+    margin: 20px;
+}
+
+@media(max-width:991px) {
+
+    .menu {
+        padding: 30px;
+    }
+
+
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #323337;
+        display: none;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+
+    .header {
+        min-height: 0vh;
+    }
+
+    .header-content {
+        padding: 100px 30px;
+    }
+
+    .header-content p {
+        padding: 0;
+    }
+
+    .futbol {
+        padding: 30px;
+    }
+
+    .futbol-content h2 {
+        padding: 0;
+    }
+
+    .txt-p {
+        padding: 0;
+    }
+
+    .futbol-group {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .futbol-img {
+        display: none;
+    }
+
+    .productos {
+        padding: 30px;
+    }
+
+    .productos-content p {
+        padding: 0;
+    }
+
+    .productos-group {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .productos-1 {
+        margin-bottom: 25px;
+    }
+
+    .general {
+        flex-direction: column;
+    }
+
+    .general-1 {
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+    }
+
+    .general-2, .general-3 {
+        display: none;
+    }
+
+    .blog {
+        padding: 30px;
+    }
+
+    .blog-content {
+        flex-direction: column;
+    }
+
+    .blog-1 {
+        padding: 0;
+    }
+
+    .footer {
+        padding: 30px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+

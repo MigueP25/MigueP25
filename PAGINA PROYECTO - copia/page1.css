@@ -1,0 +1,131 @@
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+} 
+
+body {
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-naranja-abstracto_698452-2665.jpg);
+
+}
+
+.formulario {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    background: rgb(255, 199, 77);
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.formulario h1 {
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.formulario form {
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+form .usuario {
+    position: relative;
+    border-bottom: 2px solid #000000;
+    margin: 30px 0;
+}
+
+.usuario input {
+    width: 100%;
+    padding: 10px 0 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.usuario label {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    color: #000000;
+    transform: translateY(50%);
+    font-size: 16px;
+    pointer-events: none;
+}
+
+.usuario span::before {
+    content:'';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    background: #0028ca;
+    transition: .5s;
+}
+
+.usuario input:focus ~ label,
+.usuario input:valid ~ label {
+    top: -10px;
+    color: #7c7c7c;
+    transition: top 0.3s ease, color 0.3s ease;
+}
+
+.usuario input:focus ~ span::before,
+.usuario input:focus ~ span::before {
+    width: 100%;
+
+}
+
+.recordar {
+    margin: -5px 0 20px 5px;
+    color: #0028ca;
+    cursor: pointer;
+}
+
+.recordar:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    background-color: #000000;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    justify-content: left;
+    padding: 15px;
+    padding-left: 45%;
+    margin: 15px;
+    display: flex;
+    border-radius: 25px;
+    border: 1px solid rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.btn:hover{
+    color: blue;
+    border-color: #000000;
+    transition: .5s;
+}
+
+.registrarse {
+    margin: 30px;
+    text-align: center;
+    font-size: 16px;
+    color: #000000;
+}
+
+.registrarse a {
+    color: blue;
+    text-decoration: none;
+}
+
+.registrarse a:hover {
+    text-decoration: underline;
+}
